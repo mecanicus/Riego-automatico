@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680676151F825EE10036E9C4 /* TrayectoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680676141F825EE10036E9C4 /* TrayectoryModel.swift */; };
 		685B64F11F823E9E00EB0E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685B64F01F823E9E00EB0E36 /* AppDelegate.swift */; };
 		685B64F31F823E9E00EB0E36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685B64F21F823E9E00EB0E36 /* ViewController.swift */; };
 		685B64F61F823E9E00EB0E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685B64F41F823E9E00EB0E36 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		685B64FB1F823E9E00EB0E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685B64F91F823E9E00EB0E36 /* LaunchScreen.storyboard */; };
 		685B65061F823E9E00EB0E36 /* fc_practica2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685B65051F823E9E00EB0E36 /* fc_practica2Tests.swift */; };
 		685B65111F823E9E00EB0E36 /* fc_practica2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685B65101F823E9E00EB0E36 /* fc_practica2UITests.swift */; };
+		685B651F1F823FF900EB0E36 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685B651E1F823FF900EB0E36 /* GraphView.swift */; };
+		685B65221F82458100EB0E36 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685B65211F82458100EB0E36 /* Constants.swift */; };
+		685B65241F82485600EB0E36 /* TankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685B65231F82485600EB0E36 /* TankModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		680676141F825EE10036E9C4 /* TrayectoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrayectoryModel.swift; sourceTree = "<group>"; };
 		685B64ED1F823E9D00EB0E36 /* fc_practica2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fc_practica2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		685B64F01F823E9E00EB0E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		685B64F21F823E9E00EB0E36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		685B650C1F823E9E00EB0E36 /* fc_practica2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fc_practica2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		685B65101F823E9E00EB0E36 /* fc_practica2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fc_practica2UITests.swift; sourceTree = "<group>"; };
 		685B65121F823E9E00EB0E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685B651E1F823FF900EB0E36 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		685B65211F82458100EB0E36 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		685B65231F82485600EB0E36 /* TankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		685B64E41F823E9D00EB0E36 = {
 			isa = PBXGroup;
 			children = (
+				685B65201F82456100EB0E36 /* Models */,
 				685B64EF1F823E9D00EB0E36 /* fc_practica2 */,
 				685B65041F823E9E00EB0E36 /* fc_practica2Tests */,
 				685B650F1F823E9E00EB0E36 /* fc_practica2UITests */,
@@ -101,6 +110,7 @@
 				685B64F21F823E9E00EB0E36 /* ViewController.swift */,
 				685B64F41F823E9E00EB0E36 /* Main.storyboard */,
 				685B64F71F823E9E00EB0E36 /* Assets.xcassets */,
+				685B651E1F823FF900EB0E36 /* GraphView.swift */,
 				685B64F91F823E9E00EB0E36 /* LaunchScreen.storyboard */,
 				685B64FC1F823E9E00EB0E36 /* Info.plist */,
 			);
@@ -123,6 +133,16 @@
 				685B65121F823E9E00EB0E36 /* Info.plist */,
 			);
 			path = fc_practica2UITests;
+			sourceTree = "<group>";
+		};
+		685B65201F82456100EB0E36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				685B65211F82458100EB0E36 /* Constants.swift */,
+				685B65231F82485600EB0E36 /* TankModel.swift */,
+				680676141F825EE10036E9C4 /* TrayectoryModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +281,10 @@
 			files = (
 				685B64F31F823E9E00EB0E36 /* ViewController.swift in Sources */,
 				685B64F11F823E9E00EB0E36 /* AppDelegate.swift in Sources */,
+				685B651F1F823FF900EB0E36 /* GraphView.swift in Sources */,
+				685B65241F82485600EB0E36 /* TankModel.swift in Sources */,
+				685B65221F82458100EB0E36 /* Constants.swift in Sources */,
+				680676151F825EE10036E9C4 /* TrayectoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
